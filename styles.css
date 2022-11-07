@@ -2,61 +2,112 @@
     font-family: Roboto, sans-serif;
 }
 
-nav {
-    background-color: #1f2937;
-}
-
-.logo {
-    width: 200px;
-    margin-left: 80px;
-}
-
-.topnav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.topnavlinks a {
+a {
     text-decoration: none;
-    font-size: 40px;
-    padding-right: 80px;
+    color: #f9faf8;
 }
 
-#products {
-    margin-right: -60px;
-    margin-left: -50px;
-    padding-top: 100px;
+.header-nav {
     display: flex;
-    justify-content: space-around;
-    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    gap: 800px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    list-style-type: none;
+    font-size: 18px;
+    color: #f9faf8;
+}
+
+.header-nav {
     background-color: #1f2937;
 }
 
-.a-image {
-    width: 800px;
+.content {
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    gap: 430px;
 }
 
-#sign-up {
-    font-size: 30px;
+.text1 {
+    font-size: 48px;
+    color: #f9faf8;
+}
+
+.text2 {
+    font-size: 18px;
+    color: #f9faf8;
+}
+
+.signup-button {
     background-color: #3882f6;
-    border-radius: 10px;
-    padding: 5px 20px 5px 20px;
+    border: none;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #f9faf8;
 }
-
 
 .artist {
-    width: 350px;
-    height: 500px;
-    
+    width: 270px;
+    height: 300px;
+    border-radius: 15px;
 }
 
-.artisttitle {
-    text-align: center;
-    padding-top: 100px;
+.artists {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;  
+    padding-bottom: 100px;  
+    padding-top: 30px;
+    background-color: white;
 }
 
+.artist-list {
+    display: flex;
+    gap: 80px;
+}
 
-#artist {
-    overflow: hidden;
+.names {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+    color: #1f2937;
+}
+
+.artists-title {
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+}
+
+.author {
+    font-size: 24px;
+    font-style: italic;
+}
+
+.a-successq {
+    display: flex;
+    justify-content: center;
+    background-color: #e5e7eb;
+    padding: 100px 0px 60px 0;
+}
+
+.author {
+    justify-content: flex-end;
+    display: flex;
 }
