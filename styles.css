@@ -2,6 +2,11 @@
     font-family: Roboto, sans-serif;
 }
 
+.logo {
+    width: 200px;
+    border-radius: 100px;
+}
+
 a {
     text-decoration: none;
     color: #f9faf8;
@@ -48,11 +53,11 @@ ul {
 
 .signup-button {
     background-color: #3882f6;
-    border: none;
     padding: 5px 10px 5px 10px;
     border-radius: 5px;
     font-weight: bold;
     color: #f9faf8;
+    border-color: white;
 }
 
 .artist {
@@ -110,4 +115,43 @@ ul {
 .author {
     justify-content: flex-end;
     display: flex;
+    font-weight: bolder;
+}
+
+.blue {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 300px;
+}
+
+.secondtodlast {
+    display: flex;
+    justify-content: center;
+    gap: 500px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    
+}
+
+.buttonlast {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 100px;
+}
+
+.textindbox {
+    color: #f9faf8;
+    margin-left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bold {
+    font-weight: bolder;
+    font-size: 20px;
 }
